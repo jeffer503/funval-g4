@@ -1,0 +1,12 @@
+/* #sv{
+    color: red;
+}
+.parrafo{
+    color: blueviolet;
+} */
+
+.cabecera {
+    justify-items: center;
+    align-items: center;
+
+}

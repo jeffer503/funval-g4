@@ -1,0 +1,16 @@
+.cabecera {
+    display: flex;
+    justify-content: center;
+
+}
+#contenedor {
+    display: flex;
+    justify-content: center;
+}
+.p {
+    text-align: center;
+}
+body {
+    background-color: #033268;
+    color: white;
+}
