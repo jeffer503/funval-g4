@@ -1,0 +1,52 @@
+*{
+    height: 0;
+    width: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenedor {
+    height: 600px;
+    width: 300px;
+    border: solid 2px black;
+    color: white;
+}
+.caja {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja1 {
+    background-color: blueviolet;
+    position: sticky;
+    top: 10px;
+}
+.caja2 {
+    background-color: chartreuse;
+    position: static;
+}
+.caja3 {
+    background-color: green;
+}
+.caja4 {
+    background-color: darkorange;
+}
+.caja5 {
+    background-color: steelblue;
+}
+main {
+    display: flex;
+}
+p {
+    justify-content: center;
+    align-items: center;
+}

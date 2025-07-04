@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3);
+    background-color: beige;
+    gap: 8px;
+    padding: 10px;
+}
+.caja {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.caja1 {
+    background-color: coral;
+}
+.caja2 {
+    background-color: blue;
+}
+.caja3 {
+    background-color: yellowgreen;
+}
+.caja4 {
+    background-color: cadetblue;
+}
+.caja5{
+    background-color: yellow;
+}
+.caja6 {
+    background-color: slateblue;
+}
+.banner {
+    width: 100px;
+    height: 200px;
+    display: grid;
+    background-color: red;
+    border: solid 1px black;
+    grid-column: span 3;
+}
