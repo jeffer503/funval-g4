@@ -5,7 +5,7 @@
 es 
 un comentario */
 
-/* let nombre = "jeffersson"
+let nombre = "jeffersson"
 let edad = 19
 let masculino = true
 let numeroGrande = 98383283498492477n
@@ -13,9 +13,7 @@ let reprobado;
 let aprobado = null
 let simbol = Symbol("melgar")
 
-console.log(nombre, edad, masculino, numeroGrande, reprobado, aprobado, simbol,)
-
-console.log(typeof nombre, edad, masculino, numeroGrande, reprobado, aprobado, simbol,)
+ 
 
 /* nombre = "homero"
 edad = 2006
@@ -43,7 +41,7 @@ let multiplicacion = a * b
 
 console.log(suma, resta, division, multiplicacion) */
 
-
+/* 
 let username = "admin"
 let password = 123456;
 
@@ -54,4 +52,13 @@ username==="admin"
 : console.log("")
 
   : (usuario !== "admin" && password !== "123456") 
-    ? "Usuario y password incorrectos"
+    ? "Usuario y password incorrectos" */
+
+     
+
+console.log(typeof nombre, edad, masculino, numeroGrande, reprobado, aprobado, simbol,)
+
+console.log(10 == "10")
+
+let x = 4
+console.log(x == "4");
